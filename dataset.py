@@ -1,6 +1,6 @@
-# @Author: NickYi1990, yelanlan
+# @Author: yican, yelanlan
 # @Date: 2020-05-27 22:58:45
-# @Last Modified by:   NickYi1990
+# @Last Modified by:   yican
 # @Last Modified time: 2020-05-27 22:58:45
 
 # Standard libraries

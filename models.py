@@ -1,6 +1,6 @@
-# @Author: yelanlan, NickYi1990
+# @Author: yelanlan, yican
 # @Date: 2020-06-16 20:42:51
-# @Last Modified by:   NickYi1990
+# @Last Modified by:   yican
 # @Last Modified time: 2020-06-16 20:42:51
 # Third party libraries
 import torch
