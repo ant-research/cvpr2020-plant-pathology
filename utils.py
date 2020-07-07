@@ -2,8 +2,6 @@
 # @Date: 2020-06-14 16:19:48
 # @Last Modified by:   NickYi1990
 # @Last Modified time: 2020-06-30 10:11:22
-
-
 # Standard libraries
 import logging
 import os

@@ -3,20 +3,19 @@
 # @Last Modified by:   yican.yc
 # @Last Modified time: 2020-06-16 20:36:19
 # Standard libraries
-# Third party libraries
-# User defined libraries
-
 import os
 import gc
 from time import time
 import pytorch_lightning as pl
 from pytorch_lightning.callbacks import EarlyStopping, ModelCheckpoint
 
+# Third party libraries
 import torch
 from dataset import generate_transforms, generate_dataloaders
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import KFold
 
+# User defined libraries
 from models import se_resnext50_32x4d
 from utils import init_hparams, init_logger, seed_reproducer, load_data
 from loss_function import CrossEntropyLossOneHot

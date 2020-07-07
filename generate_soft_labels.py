@@ -1,7 +1,13 @@
+# @Author: yican, yelanlan
+# @Date: 2020-07-07 14:47:29
+# @Last Modified by:   yican
+# @Last Modified time: 2020-07-07 14:47:29
+# Standard libraries
 import pandas as pd
 import pytorch_lightning as pl
 from pytorch_lightning.callbacks import EarlyStopping
 
+# Third party libraries
 import torch
 from dataset import generate_transforms
 from sklearn.model_selection import KFold
@@ -9,6 +15,7 @@ from scipy.special import softmax
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
+# User defined libraries
 from train import CoolSystem
 from utils import init_hparams, init_logger, seed_reproducer, load_data
 from dataset import PlantDataset
